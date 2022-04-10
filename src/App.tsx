@@ -1,10 +1,7 @@
-import { Button } from '@chakra-ui/react';
+import OverallLayout from './pages/control/OverallLayout';
+import { Routes } from 'react-router-dom';
 function App() {
-  return (
-    <div>
-      <Button bgColor={'main.100'}>Hello world</Button>
-    </div>
-  );
+  return <OverallLayout />;
 }
 
 export default App;
